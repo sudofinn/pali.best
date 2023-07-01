@@ -3,14 +3,16 @@ import Head from "next/head"
 import Link from "next/link"
 import Image from "next/image"
 
+import HeaderImageSm from "../assets/header.png"
+import HeaderImage from "../assets/header_old.png"
 
-import HeaderImage from "../assets/header.png"
+
 import Favicon from "../../assets/pali_first_favicon.png"
 
 
 const Terms = () => {
  return (
-    <div className="bg-cover bg-fixed bg-header min-h-screen  ">
+    <div className="bg-cover bg-fixed bg-headersm lg:bg-headerlg min-h-screen  ">
 
          <Head>
       <title>Cookie Policy</title>

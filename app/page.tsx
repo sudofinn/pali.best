@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import HeaderImage from "../assets/header.png"
+import HeaderImageSm from "../assets/header.png"
+import HeaderImage from "../assets/header_old.png"
+
 import AppStoreImage from "../assets/App Store.svg"
 import PlayStoreImage from "../assets/Play Store.svg"
 import MacBookImage from "../assets/macbook.svg"
@@ -10,7 +12,7 @@ import Favicon from "../assets/pali_first_favicon.png"
 
 export default function Home() {
   return (
-    <div className="min-h-screen  bg-cover bg-fixed bg-header">
+    <div className="min-h-screen  bg-cover bg-fixed bg-headersm lg:bg-headerlg">
       <div className="w-full container mx-auto">
         <div className="w-full flex items-center justify-between pl-8">
           <Link className="flex pt-8 items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">

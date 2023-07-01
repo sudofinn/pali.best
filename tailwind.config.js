@@ -11,7 +11,9 @@ module.exports = {
   theme: {
      extend: {
       backgroundImage: {
-        'header': "url('../assets/header.png')",
+        'headersm': "url('../assets/header.png')",
+        'headerlg': "url('../assets/header_old.png')",
+        
       },
   },
   plugins: [],

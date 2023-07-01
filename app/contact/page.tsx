@@ -4,14 +4,16 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-import HeaderImage from "../assets/header.png"
+import HeaderImageSm from "../assets/header.png"
+import HeaderImage from "../assets/header_old.png"
+
 import Favicon from "../../assets/pali_first_favicon.png"
 
 
 
 const Index = () => {
   return (
-    <div className="w-full bg-cover bg-fixed bg-header min-h-screen font-extrabold text-white bg-black    ">
+    <div className="w-full bg-cover bg-fixed bg-headersm lg:bg-headerlg min-h-screen font-extrabold text-white bg-black    ">
       <Head>
         <title>Reach out</title>
         <meta name="description" content="Contact Freelance OS" />
