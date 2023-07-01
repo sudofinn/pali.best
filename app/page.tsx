@@ -13,9 +13,9 @@ export default function Home() {
     <div className="min-h-screen  bg-cover bg-fixed bg-header">
       <div className="w-full container mx-auto">
         <div className="w-full flex items-center justify-between pl-8">
-          <a className="flex pt-8 items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+          <Link className="flex pt-8 items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
             Pali.<span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">best</span>
-          </a>
+          </Link>
 
           <div className="flex w-1/2 justify-end content-center pt-8">
             <a className="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out" href="https://twitter.com/intent/tweet?text=Pali%20is%20launching%20soon%2C%20an%20app%20where%20you%20can%20learn%20on%20the%20fly.%20Get%20notified%20when%20it's%20live%20at%20https%3A%2F%2Fwww.pali.best%2F" target="_blank">
@@ -50,10 +50,10 @@ export default function Home() {
           action={process.env.NEXT_PUBLIC_KEY}
             method="POST">
             <div className="mb-4">
-              <label className="block text-blue-300 py-2 font-bold mb-2" htmlFor="emailaddress">
+              <label  className="block text-blue-300 py-2 font-bold mb-2" htmlFor="emailaddress">
                 Get an email on launch day.
               </label>
-              <input
+              <input name="in-pr"
                 className="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 id="emailaddress"
                 type="text"
@@ -62,9 +62,9 @@ export default function Home() {
             </div>
 
             <div className="flex items-center justify-between pt-4">
-              <button
+              <button name="btn-prim"
                 className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-                type="button"
+                 role="button"
               >
                 Subscribe
               </button>
@@ -140,9 +140,9 @@ export default function Home() {
           </h1>
           <form action={process.env.NEXT_PUBLIC_KEY}
             method="POST">
-            <input className="mb-2 text-black transition hover:scale-105 duration-300 ease-in-out shadow-xl shadow-[#10B788] hover:shadow-gray-900 inline-block rounded bg-danger px-12 pt-4 pb-3.5 text-sm font-medium  leading-normal    md:mr-2 md:mb-0"
+            <input name="name" className="mb-2 text-black transition hover:scale-105 duration-300 ease-in-out shadow-xl shadow-[#10B788] hover:shadow-gray-900 inline-block rounded bg-danger px-12 pt-4 pb-3.5 text-sm font-medium  leading-normal    md:mr-2 md:mb-0"
             data-te-ripple-init data-te-ripple-color="light" placeholder='my@email.com' ></input>
-          <button className="inline-block transition hover:scale-105 duration-300 ease-in-out rounded px-12 shadow-xl shadow-[#6366F1] hover:shadow-gray-900 pt-4 pb-3.5 text-sm font-medium  leading-normal text-danger  "
+          <button name="btn-sec" className="inline-block transition hover:scale-105 duration-300 ease-in-out rounded px-12 shadow-xl shadow-[#6366F1] hover:shadow-gray-900 pt-4 pb-3.5 text-sm font-medium  leading-normal text-danger  "
             data-te-ripple-init data-te-ripple-color="light"  role="button">Subscribe</button>
 
           </form>
