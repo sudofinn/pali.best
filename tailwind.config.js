@@ -11,8 +11,8 @@ module.exports = {
   theme: {
      extend: {
       backgroundImage: {
-        'headersm': "url('../assets/header.png')",
-        'headerlg': "url('../assets/header_old.png')",
+        'headersm': "url('../assets/pali_new_background.png')",
+        'headerlg': "url('../assets/pali_new_background.png')",
         
       },
   },

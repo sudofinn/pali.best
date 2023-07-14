@@ -7,7 +7,7 @@ import HeaderImageSm from "../assets/header.png"
 import HeaderImage from "../assets/header_old.png"
 
 
-import Favicon from "../../assets/pali_first_favicon.png"
+import Favicon from "../favicon.ico"
 
 
 const Terms = () => {

@@ -1,22 +1,22 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import HeaderImageSm from "../assets/header.png"
-import HeaderImage from "../assets/header_old.png"
+import HeaderImageSm from "../assets/pali_new_background.png"
+import HeaderImage from "../assets/pali_new_background.png"
 
 import AppStoreImage from "../assets/App Store.svg"
 import PlayStoreImage from "../assets/Play Store.svg"
 import MacBookImage from "../assets/macbook.svg"
 
-import Favicon from "../assets/pali_first_favicon.png"
+import Favicon from "./favicon.ico"
 
 export default function Home() {
   return (
     <div className="min-h-screen  bg-cover bg-fixed bg-headersm lg:bg-headerlg">
       <div className="w-full container mx-auto">
         <div className="w-full flex items-center justify-between pl-8">
-          <Link className="flex pt-8 items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
-            Pali.<span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">best</span>
+          <Link className="flex pt-8 items-center no-underline hover:no-underline font-bold text-2xl text-[#DE0100] lg:text-4xl" href="/">
+            Pali.<span className="bg-clip-text text-transparent bg-gradient-to-r from-[#6069EE] to-[#F6A915]">best</span>
           </Link>
 
           <div className="flex w-1/2 justify-end content-center pt-8">
@@ -39,13 +39,13 @@ export default function Home() {
         <div className="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
           <h1 className="my-4  text-5xl  md:text-5xl xl:text-6xl 2xl:text-7xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
             
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
-              Passive Learning
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#DE0100]  to-[#F6A915]">
+              Learn anytime,
             </span>
-             <span> </span>for everyone.
+             <span className=''> </span><p className='text-[#6069EE]'>anywhere.</p>
           </h1>
           <p className="leading-normal text-white text-base  md:text-2xl mb-8 text-center md:text-left">
-            Learn on the fly and become smarter in no time.
+            Study on the fly and get smarter in no time.
           </p>
 
           <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4"
@@ -65,7 +65,7 @@ export default function Home() {
 
             <div className="flex items-center justify-between pt-4">
               <button name="btn-prim"
-                className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                className="bg-gradient-to-r from-[#6069EE] to-[#F6A915]  text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                  role="button"
               >
                 Subscribe
@@ -142,7 +142,7 @@ export default function Home() {
           </h1>
           <form action={process.env.NEXT_PUBLIC_KEY}
             method="POST">
-            <input name="name" className="mb-2 text-black transition hover:scale-105 duration-300 ease-in-out shadow-xl shadow-[#10B788] hover:shadow-gray-900 inline-block rounded bg-danger px-12 pt-4 pb-3.5 text-sm font-medium  leading-normal    md:mr-2 md:mb-0"
+            <input name="name" className="mb-2 text-black transition hover:scale-105 duration-300 ease-in-out shadow-xl shadow-[#DE0100] hover:shadow-gray-900 inline-block rounded bg-danger px-12 pt-4 pb-3.5 text-sm font-medium  leading-normal    md:mr-2 md:mb-0"
             data-te-ripple-init data-te-ripple-color="light" placeholder='my@email.com' ></input>
           <button name="btn-sec" className="inline-block transition hover:scale-105 duration-300 ease-in-out rounded px-12 shadow-xl shadow-[#6366F1] hover:shadow-gray-900 pt-4 pb-3.5 text-sm font-medium  leading-normal text-danger  "
             data-te-ripple-init data-te-ripple-color="light"  role="button">Subscribe</button>
