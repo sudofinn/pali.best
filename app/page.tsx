@@ -12,7 +12,7 @@ import Favicon from "./favicon.ico"
 
 export default function Home() {
   return (
-    <div className="min-h-screen  bg-cover bg-fixed bg-headersm lg:bg-headerlg">
+    <div className="min-h-screen  bg-cover bg-fixed bg-headersm xl:bg-headerlg">
       <div className="w-full container mx-auto">
         <div className="w-full flex items-center justify-between pl-8">
           <Link className="flex pt-8 items-center no-underline hover:no-underline font-bold text-2xl text-[#DE0100] lg:text-4xl" href="/">

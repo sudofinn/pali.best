@@ -13,7 +13,7 @@ import Favicon from "../favicon.ico"
 
 const Index = () => {
   return (
-    <div className="w-full bg-cover bg-fixed bg-headersm lg:bg-headerlg min-h-screen font-extrabold text-white bg-black    ">
+    <div className="w-full bg-cover bg-fixed bg-headersm xl:bg-headerlg min-h-screen font-extrabold text-white bg-black    ">
       <Head>
         <title>Reach out</title>
         <meta name="description" content="Contact Freelance OS" />

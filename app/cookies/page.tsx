@@ -12,7 +12,7 @@ import Favicon from "../favicon.ico"
 
 const Terms = () => {
  return (
-    <div className="bg-cover bg-fixed bg-headersm lg:bg-headerlg min-h-screen  ">
+    <div className="bg-cover bg-fixed bg-headersm xl:bg-headerlg min-h-screen  ">
 
          <Head>
       <title>Cookie Policy</title>
