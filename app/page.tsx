@@ -6,7 +6,7 @@ import HeaderImage from "../assets/pali_new_background.png"
 
 import AppStoreImage from "../assets/App Store.svg"
 import PlayStoreImage from "../assets/Play Store.svg"
-import MacBookImage from "../assets/macbook.svg"
+import MacBookImage from "../assets/palimockup.png"
 
 import Favicon from "./favicon.ico"
 
@@ -75,7 +75,7 @@ export default function Home() {
         </div>
 
         <div className="w-full xl:w-3/5 p-12 overflow-hidden">
-          <Image alt="macbook"   className="mx-auto w-full md:w-11/12   transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src={MacBookImage} />
+          <Image alt="macbook"   className="mx-auto w-full md:w-11/12 rounded-xl   transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src={MacBookImage} />
         </div>
 
         
@@ -92,7 +92,7 @@ export default function Home() {
             <svg aria-hidden="true" className="w-3 h-3 text-black" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1  font-semibold text-gray-900 dark:text-white">Day 1  <span className=" text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-white text-black ml-3">Noob</span></h3>
-        <p className="mb-4 text-xl font-normal text-gray-500 dark:text-gray-400">You jump into learning with Pali without knowing it it works.</p>
+        <p className="mb-4 text-xl font-normal text-gray-300 ">You jump into learning with Pali without knowing it it works.</p>
     </li>
 
     <li className="mb-10 ml-6">
@@ -100,7 +100,7 @@ export default function Home() {
             <svg aria-hidden="true" className="w-3 h-3 text-black" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="mb-1  font-semibold text-gray-900 dark:text-white">Day 3</h3>
-        <p className="text-xl font-normal text-gray-500 dark:text-gray-400">You already notice how much more you can learn in a day.</p>
+        <p className="text-xl font-normal text-gray-300 ">You already notice how much more you can learn in a day.</p>
     </li>
 
      <li className="mb-10 ml-6">
@@ -108,7 +108,7 @@ export default function Home() {
             <svg aria-hidden="true" className="w-3 h-3 text-black" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="mb-1  font-semibold text-gray-900 dark:text-white">Day 7 <span className=" text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-white text-black ml-3">Intermediate</span></h3>
-        <p className="text-xl font-normal text-gray-500 dark:text-gray-400">Pali becomes part of your routine, you use it every day.</p>
+        <p className="text-xl font-normal text-gray-300 ">Pali becomes part of your routine, you use it every day.</p>
     </li>
 
      <li className="mb-10 ml-6">
@@ -116,7 +116,7 @@ export default function Home() {
             <svg aria-hidden="true" className="w-3 h-3 text-black" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="mb-1  font-semibold text-gray-900 dark:text-white">Day 30</h3>
-        <p className="text-xl font-normal text-gray-500 dark:text-gray-400">Pali is part of your life.</p>
+        <p className="text-xl font-normal text-gray-300 ">Pali is part of your life.</p>
     </li>
 
     <li className="mb-10 ml-6">
@@ -124,7 +124,7 @@ export default function Home() {
             <svg aria-hidden="true" className="w-3 h-3 text-black" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="mb-1  font-semibold text-gray-900 dark:text-white">Day 60 <span className=" text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-white text-black ml-3">Pro</span></h3>
-        <p className="text-xl font-normal text-gray-500 dark:text-gray-400">You = Pali</p>
+        <p className="text-xl font-normal text-gray-300 ">You = Pali</p>
     </li>
     
     
